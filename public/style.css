@@ -1,0 +1,23 @@
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.align-top {
+    align-self: flex-start;
+}
+
+.text {
+    max-width: 40%;
+}
+
+.align-bot {
+    align-self: flex-end;
+}
